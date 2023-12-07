@@ -8,8 +8,8 @@ Terraform has two main components
 - Providers : AWS, Azure, Gpc, kubernetes etc
 
   Terraform commands:
-  - Init
-  - Refresh
-  - Plan
-  - Apply
-  - Delete
+  - Init: This initializes terraform by downloading plugins and providers to your local
+  - Refresh: It gives the current state of the infrastructure
+  - Plan: It compares required output to what's existing currently and creates the plan that needs to be executed
+  - Apply: This executes the plan, creates the resources
+  - Destroy: Destroy the resources
